@@ -2,7 +2,7 @@
 
 # Role-Based Access Control (RBAC) User Interface
 
-This project is a **Role-Based Access Control (RBAC)** User Interface built using **React.js**. It allows administrators to manage users, roles, and permissions in a dynamic and user-friendly way. The application demonstrates a practical implementation of RBAC principles through an intuitive admin dashboard.
+This project is a **Role-Based Access Control (RBAC)** User Interface built using **React.js**. It allows administrators to manage users, roles, and permissions dynamically and efficiently.
 
 ---
 
@@ -32,6 +32,8 @@ This project is a **Role-Based Access Control (RBAC)** User Interface built usin
 ---
 
 ## Project Structure
+
+```plaintext
 src/
 ├── components/
 │   ├── Navbar.js              # Top navigation bar
@@ -45,9 +47,7 @@ src/
 ├── App.js                     # Application root
 ├── index.js                   # Application entry point
 
-
 ---
-
 ## Technologies Used
 
 - **Frontend Framework**: React.js
@@ -59,10 +59,13 @@ src/
 
 ## Installation and Setup
 
+
 ### 1. Clone the repository:
 ```bash
 git clone https://github.com/your-repo/rbac-ui.git
 cd rbac-ui
+
+
 
 ---
 
