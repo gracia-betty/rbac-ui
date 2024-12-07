@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "0111",
+      "name": "Test 1",
+      "role": "Manager"
+    }
+  ],
+  "roles": [
+    {
+      "id": "6ea7",
+      "name": "Manager",
+      "permissions": [
+        "Give Rating"
+      ]
+    }
+  ]
+}
