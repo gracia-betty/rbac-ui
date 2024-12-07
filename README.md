@@ -31,6 +31,24 @@ This project is a **Role-Based Access Control (RBAC)** User Interface built usin
 
 ---
 
+## Technologies Used
+
+- **Frontend Framework**: React.js
+- **CSS Styling**: Vanilla CSS for custom styles
+- **Routing**: React Router for navigation between pages
+- **Mock Data**: JavaScript arrays for simulating data management
+
+## Usage
+- Navigate between User Management and Role Management using the navbar.
+- Manage Users:
+    - Add new users with roles and statuses.
+    - Edit user details or delete users.
+- Manage Roles:
+    - Create new roles.
+    - Edit or delete existing roles.
+    - Toggle permissions dynamically.
+- All changes are reflected dynamically using simulated APIs.
+
 ## Project Structure
 
 ```plaintext
@@ -46,64 +64,3 @@ src/
 ├── styles.css                 # Global CSS styles
 ├── App.js                     # Application root
 ├── index.js                   # Application entry point
-
----
-## Technologies Used
-
-- **Frontend Framework**: React.js
-- **CSS Styling**: Vanilla CSS for custom styles
-- **Routing**: React Router for navigation between pages
-- **Mock Data**: JavaScript arrays for simulating data management
-
----
-
-## Installation and Setup
-
-
-### 1. Clone the repository:
-```bash
-git clone https://github.com/your-repo/rbac-ui.git
-cd rbac-ui
-
-
-
----
-
-### 2. Install dependencies:
-```bash
-npm install
-
----
-
-### 3. Start the development server:
-```bash
-npm start
-
----
-
-### 4. Open the application in your browser:
-```bash
-http://localhost:3000
-
----
-
-## Usage
-- ### 1. **Navigate between User Management and Role Management using the navbar.**
-- 2. **Manage Users:**
-- Add new users with roles and statuses.
-- Edit user details or delete users.
-### 3. **Manage Roles:
-- Create new roles.
-- Edit or delete existing roles.
-- Toggle permissions dynamically.
-### 4. **All changes are reflected dynamically using simulated APIs.
-
----
-
-##Acknowledgments
-Thanks to VRV Security for inspiring this project, emphasizing the importance of secure and dynamic RBAC systems in modern applications.
-
-
-
-
-
